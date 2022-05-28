@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+# this is still very much in progress
+
+%:
+	dh $@

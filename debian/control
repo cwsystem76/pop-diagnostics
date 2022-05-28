@@ -1,0 +1,21 @@
+Source: pop-diagnostics
+Section: admin
+Priority: optional
+Maintainer: Christian Wagner <christianwagner@system76.com> 
+Build-Depends:
+  debhelper-compat (= 11),
+  pkg-config,
+  build-essential
+Standards-Version: 4.1.1
+Homepage: https://github.com/cwsystem76/pop-diagnostics
+
+Package: pop-diagnostics
+Architecture: amd64
+Conflicts: 
+Provides: 
+Replaces: 
+Depends:
+  systemd,
+  ${misc:Depends},
+  ${shlibs:Depends}
+Description: System76 Hardware Diagnostics

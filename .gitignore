@@ -1,0 +1,6 @@
+debian/*
+!debian/changelog
+!debian/control
+!debian/copyright
+!debian/*.install
+!debian/rules
