@@ -1,0 +1,3 @@
+[submodule "memtest86plus"]
+	path = memtest86plus
+	url = https://github.com/memtest86plus/memtest86plus/
