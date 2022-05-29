@@ -1,0 +1,2 @@
+memtest86plus/build64/memtest.efi /boot/efi/EFI/memtest/
+src/memtest.conf /boot/efi/loader/entries/
