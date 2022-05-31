@@ -2,5 +2,8 @@ debian/*
 !debian/changelog
 !debian/control
 !debian/copyright
+!debian/preinst
+!debian/postinst
+!debian/postrm
 !debian/*.install
 !debian/rules

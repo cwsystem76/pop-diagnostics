@@ -1,7 +1,10 @@
 #!/usr/bin/make -f
-# this is still very much in progress
+
+# Step 1) Build the version in the `build64` directory because that's where the EFI executable comes from.
 
 %:
 	dh $@ --sourcedirectory=memtest86plus/build64
+
+# Step 2) Override the automatic install functions because there's no `make install` in the `memtest86plus` source. We'll be installing the files to the right place using `pop-diagnostics.install` instead.
 
 override_dh_auto_install:

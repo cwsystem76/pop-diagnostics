@@ -1,2 +1,2 @@
-memtest86plus/build64/memtest.efi /boot/efi/EFI/memtest/
-src/memtest.conf /boot/efi/loader/entries/
+memtest86plus/build64/memtest.efi /usr/lib/pop-diagnostics/memtest
+src/memtest.conf /usr/lib/pop-diagnostics/memtest

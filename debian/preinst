@@ -1,0 +1,14 @@
+#!/bin/sh
+
+bootstatus="$(bootctl status)"
+
+echo $bootstatus | grep -Fq 'Product: systemd-boot'
+
+if [ $? -ne 0 ]
+then
+  echo Package can only be installed on UEFI systems using systemd-boot. Aborting installation.
+  exit 1
+fi
+
+echo systemd-boot present, continuing install
+exit 0

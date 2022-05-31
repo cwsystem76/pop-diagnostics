@@ -1,5 +1,22 @@
+pop-diagnostics (0.1.2) focal; urgency=medium
+
+  * Version bump to test upgrading, with minor change to `memtest.conf`
+  * It appears to work
+
+ -- Christian Wagner <christianwagner@system76.com>  Mon, 31 May 2022 12:00:00 -0500
+
+pop-diagnostics (0.1.1) focal; urgency=medium
+
+  * Added preinst script to check if system was booted using `systemd-boot`, abort install if not
+  * Version bump to test upgrading
+  * Upgrading did not work due to `/boot/efi` being on a FAT32 partition, which `dpkg` does not like
+  * Moved package install to `/usr/lib/pop-diagnositcs` and used postinst scripting to place files in the ESP
+  * Updated README
+
+ -- Christian Wagner <christianwagner@system76.com>  Mon, 31 May 2022 11:30:00 -0500
+
 pop-diagnostics (0.1.0) focal; urgency=medium
 
   * Initial test version
 
- -- Christian Wagner <christianwagner@system76.com>  Sat, 29 May 2022 18:00:00 -0500
+ -- Christian Wagner <christianwagner@system76.com>  Sat, 28 May 2022 18:00:00 -0500
