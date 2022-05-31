@@ -8,4 +8,4 @@ This project is being set up as `pop-diagnostics` instead of just `pop-memtest` 
 
 Useful documents:
 * https://systemd.io/BOOT_LOADER_INTERFACE/ - the `systemd-boot` boot loader system
-* https://systemd.io/BOOT_LOADER_SPECIFICATION/- defines the contents of the `/boot/efi/loader/entries/*.conf` files
+* https://systemd.io/BOOT_LOADER_SPECIFICATION/ - defines the contents of the `/boot/efi/loader/entries/*.conf` files
