@@ -1,5 +1,0 @@
-#!/bin/sh
-
-rm -rf /boot/efi/EFI/memtest/
-
-rm -f /boot/efi/loader/entries/memtest.conf

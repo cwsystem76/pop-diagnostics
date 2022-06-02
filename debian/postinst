@@ -1,6 +1,3 @@
 #!/bin/sh
 
-mkdir -p /boot/efi/EFI/memtest/
-cp -f /usr/lib/pop-diagnostics/memtest/memtest.efi /boot/efi/EFI/memtest/
-
-cp -f /usr/lib/pop-diagnostics/memtest/memtest.conf /boot/efi/loader/entries
+/usr/lib/pop-diagnostics/memtest/memtest-util.sh reinstall

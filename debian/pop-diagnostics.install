@@ -1,2 +1,2 @@
 memtest86plus/build64/memtest.efi /usr/lib/pop-diagnostics/memtest
-src/memtest.conf /usr/lib/pop-diagnostics/memtest
+src/memtest-util.sh /usr/lib/pop-diagnostics/memtest

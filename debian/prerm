@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/lib/pop-diagnostics/memtest/memtest-util.sh uninstall

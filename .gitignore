@@ -4,6 +4,6 @@ debian/*
 !debian/copyright
 !debian/preinst
 !debian/postinst
-!debian/postrm
+!debian/prerm
 !debian/*.install
 !debian/rules

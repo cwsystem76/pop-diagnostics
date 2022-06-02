@@ -1,3 +1,10 @@
+pop-diagnostics (0.2) focal; urgency=medium
+
+  * added `memtest-util.sh` script for making changes to the EFI partition after package install
+  * removed `postrm` script, added `prerm` and adjusted `postinst` to use the `memtest-util.sh` for install/uninstall operations
+
+ -- Christian Wagner <christianwagner@system76.com>  Thurs, 2 June 2022 10:00:00 -0500
+
 pop-diagnostics (0.1.2) focal; urgency=medium
 
   * Version bump to test upgrading, with minor change to `memtest.conf`
