@@ -48,6 +48,6 @@ case "$script_verb" in
     ;;
     "uninstall") func_remove_from_ESP   
     ;;
-    *) echo "Unrecognized verb, valid verbs are 'reinstall' and 'uninstall'/"
+    *) echo "Unrecognized verb, valid verbs are 'reinstall' and 'uninstall'."
     ;;
 esac
