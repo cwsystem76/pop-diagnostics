@@ -17,3 +17,14 @@ Useful documents:
 * `dpkg-buildpackage -us -uc`
 
 This will result in a `.deb` file in the parent directory that can be installed in the usual ways.
+
+## updating the `memtest86plus` submodule to a new release
+
+* `cd memtest86plus`
+* `git checkout v6.00-beta2` (or other release tag)
+
+## example script usage
+
+* `/usr/lib/pop-diagnostics/memtest/memtest-util.sh reinstall`
+* `/usr/lib/pop-diagnostics/memtest/memtest-util.sh uninstall`
+* `/usr/lib/pop-diagnostics/memtest/memtest-util.sh options keyboard=legacy` (or other startup options for the memtest EFI executable)

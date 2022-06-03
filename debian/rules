@@ -5,6 +5,6 @@
 %:
 	dh $@ --sourcedirectory=memtest86plus/build64
 
-# Step 2) Override the automatic install functions because there's no `make install` in the `memtest86plus` source. We'll be installing the files to the right place using `pop-diagnostics.install` instead.
+# Step 2) Override the automatic install functions because there's no `make install` in the `memtest86plus` source. We'll be installing the files to the right place in `/usr/lib` using `pop-diagnostics.install` instead.
 
 override_dh_auto_install:
