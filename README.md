@@ -25,6 +25,6 @@ This will result in a `.deb` file in the parent directory that can be installed 
 
 ## example script usage
 
-* `/usr/lib/pop-diagnostics/memtest/memtest-util.sh reinstall`
-* `/usr/lib/pop-diagnostics/memtest/memtest-util.sh uninstall`
-* `/usr/lib/pop-diagnostics/memtest/memtest-util.sh options keyboard=legacy` (or other startup options for the memtest EFI executable)
+* `sudo /usr/lib/pop-diagnostics/memtest/memtest-util.sh reinstall`
+* `sudo /usr/lib/pop-diagnostics/memtest/memtest-util.sh uninstall`
+* `sudo /usr/lib/pop-diagnostics/memtest/memtest-util.sh options keyboard=legacy` (or other startup options for the memtest EFI executable)
