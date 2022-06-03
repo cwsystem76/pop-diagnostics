@@ -1,3 +1,9 @@
+pop-diagnostics (0.2.1) focal; urgency=medium
+
+  * added `options` parameter to `memtest-util.sh` script for setting custom boot options
+
+ -- Christian Wagner <christianwagner@system76.com>  Fri, 3 Jun 2022 12:00:00 -0500
+
 pop-diagnostics (0.2) focal; urgency=medium
 
   * added `memtest-util.sh` script for making changes to the EFI partition after package install
