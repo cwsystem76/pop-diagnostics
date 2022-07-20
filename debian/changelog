@@ -1,3 +1,10 @@
+pop-diagnostics (0.2.2) focal; urgency=medium
+
+  * updated to memtest tag `v6.00-beta3`
+  * minor change to README
+
+ -- Christian Wagner <christianwagner@system76.com>  Mon, 18 Jul 2022 10:15:00 -0500
+
 pop-diagnostics (0.2.1) focal; urgency=medium
 
   * added `options` parameter to `memtest-util.sh` script for setting custom boot options
